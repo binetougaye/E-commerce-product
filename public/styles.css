@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Kumbh Sans", serif;
+}
+header {
+    padding: 24px;
+}
+ul li {
+    color: hsl(220, 14%, 75%);
+}
+.product {
+    gap: 45px;
+}
+#product {
+    padding: 54px;
+}
+.product-img {
+    border-radius: 20px;
+}
+.grid {
+    margin-top: 20px;
+}
+.grid img {
+    border-radius: 10px;
+}
+h5 {
+    color: hsl(220, 14%, 75%);
+    font-weight: bold;
+}
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.description {
+    color: hsl(220, 14%, 75%);
+    margin-top: 20px;
+}
+.pricing {
+    margin-top: 20px;
+}
+#price {
+    font-weight: bold;
+    font-size: 30px;
+}
+#percentage {
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+#promo {
+    text-decoration: line-through;
+    color: hsl(220, 14%, 75%);
+    margin-top: 10px;
+}
+.cart {
+    margin-top: 10px;
+}
+#addToCart {
+    background-color: hsl(223, 64%, 98%);
+    width: 150px;
+    padding: 8px;
+    border-radius: 5px;
+}
+button {
+    background-color: hsl(26, 100%, 55%);
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: hsl(25, 100%, 82%);
+}
+.hidden {
+    display: none;
+}
+.visible {
+    display: block;
+}
+/* Active States */
