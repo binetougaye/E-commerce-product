@@ -78,6 +78,12 @@ button:hover {
     cursor: pointer;
     background-color: hsl(25, 100%, 82%);
 }
+#cartContent {
+    /* color: hsl(220, 14%, 75%); */
+}
+#checkoutButton {
+    background-color: hsl(26, 100%, 55%);
+}
 .hidden {
     display: none;
 }
